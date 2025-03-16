@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LabRat.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+735311746c0286e8e31b79ed44a4bb3e8986c1dc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d36d3222d954471f5c65c227987a1004fbcae86")]
 [assembly: System.Reflection.AssemblyProductAttribute("LabRat.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LabRat.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
