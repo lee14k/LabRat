@@ -10,5 +10,7 @@ public class Exam
     public decimal ImmunologyPercentage { get; set; }
     public decimal MicrobiologyPercentage { get; set; }
     public decimal BloodBankPercentage { get; set; }
+    public ExamType ExamType { get; set; }
+
     
 }

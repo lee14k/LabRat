@@ -10,5 +10,9 @@ public class Question
     public string QuestionSubTopic { get; set; }
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
+    public decimal DifficultyLevel { get; set; }
+    public int TimesUsed { get; set; }
+    public decimal SuccessRate { get; set; }
+    //need to create an array that shuffles in the correct answer in a random order
     
 }
