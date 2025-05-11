@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef0e4ed8-a480-4ca6-a342-4e81d079b8de" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/labrat.client/src/ContactComponents/ContactForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/labrat.client/src/ContactComponents/ContactForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labrat.client/src/HomeComponents/HomeHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/labrat.client/src/HomeComponents/HomeHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labrat.client/src/HomeComponents/HomeSection2DemoScreenshot.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/labrat.client/src/HomeComponents/HomeSection2DemoScreenshot.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labrat.client/src/HomeComponents/HomeSection3FeatureSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/labrat.client/src/HomeComponents/HomeSection3FeatureSlider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labrat.client/src/NavigationComponents/BottomNavbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/labrat.client/src/NavigationComponents/BottomNavbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labrat.client/src/ExamComponents/ExamContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/labrat.client/src/ExamComponents/ExamContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labrat.client/src/ExamComponents/ExamNavbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/labrat.client/src/ExamComponents/ExamNavbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labrat.client/src/ExamComponents/Question.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/labrat.client/src/ExamComponents/Question.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1746982485937</updated>
-      <workItem from="1746982486956" duration="872000" />
+      <workItem from="1746982486956" duration="1754000" />
     </task>
     <servers />
   </component>
