@@ -154,7 +154,7 @@ function FeaturesMobile() {
                     <div className="relative mt-10 pb-10">
                         <div className="absolute -inset-x-4 top-8 bottom-0 bg-slate-200 sm:-inset-x-6" />
                         <div className="relative mx-auto w-[52.75rem] overflow-hidden rounded-xl bg-white ring-1 shadow-lg shadow-slate-900/5 ring-slate-500/10">
-                            <Image
+                            <img
                                 className="w-full"
                                 src={feature.image}
                                 alt=""
@@ -205,7 +205,7 @@ function FeaturesDesktop() {
                                     aria-hidden={featureIndex !== selectedIndex}
                                 >
                                     <div className="w-[52.75rem] overflow-hidden rounded-xl bg-white ring-1 shadow-lg shadow-slate-900/5 ring-slate-500/10">
-                                        <Image
+                                        <img
                                             className="w-full"
                                             src={feature.image}
                                             alt=""
@@ -233,11 +233,10 @@ export function SecondaryFeatures() {
             <Container>
                 <div className="mx-auto max-w-2xl md:text-center">
                     <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-                        Simplify everyday business tasks.
+                        Simplify your path to certification.
                     </h2>
                     <p className="mt-4 text-lg tracking-tight text-slate-700">
-                        Because you’d probably be a little confused if we suggested you
-                        complicate your everyday business tasks instead.
+                        LabRat is the first mobile-friendly app designed for medical laboratory science students. It’s a simple, easy-to-use app that helps you stay organized and on top of your studies.
                     </p>
                 </div>
                 <FeaturesMobile />

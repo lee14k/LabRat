@@ -13,25 +13,25 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
     {
-        title: 'Payroll',
+        title: 'Extensive library of questions',
         description:
-            "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+            "We have a library of over 1000 questions that are updated regularly to ensure you are always prepared for your exams.",
         image: screenshotPayroll,
     },
     {
-        title: 'Claim expenses',
+        title: 'Practice exams and flashcards',
         description:
-            "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+            "Practice exams and flashcards are designed to help you retain information and prepare for your exams.",
         image: screenshotExpenses,
     },
     {
-        title: 'VAT handling',
+        title: 'Real-time progress tracking and metrics',
         description:
-            "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
+            "Track your progress in real-time and see how you are doing in each subject. This will help you identify areas where you need to improve.",
         image: screenshotVatReturns,
     },
     {
-        title: 'Reporting',
+        title: '',
         description:
             'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
         image: screenshotReporting,
@@ -64,22 +64,20 @@ export function PrimaryFeatures() {
             aria-label="Features for running your books"
             className="relative overflow-hidden bg-blue-600 pt-20 pb-28 sm:py-32"
         >
-            <Image
+            <img
                 className="absolute top-1/2 left-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
                 src={backgroundImage}
                 alt=""
                 width={2245}
                 height={1636}
-                unoptimized
             />
             <Container className="relative">
                 <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
                     <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-                        Everything you need to run your books.
+                        Everything you need to get certified as a medical laboratory scientist.
                     </h2>
                     <p className="mt-6 text-lg tracking-tight text-blue-100">
-                        Well everything you need if you aren’t that picky about minor
-                        details like tax compliance.
+                        Looking for a huge question bank with relevant questions that's easy to use on any device? We've got you covered.
                     </p>
                 </div>
                 <TabGroup
@@ -137,12 +135,10 @@ export function PrimaryFeatures() {
                                             </p>
                                         </div>
                                         <div className="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
-                                            <Image
-                                                className="w-full"
+                                            <img
                                                 src={feature.image}
                                                 alt=""
-                                                priority
-                                                sizes="(min-width: 1024px) 67.8125rem, (min-width: 640px) 100vw, 45rem"
+                                                className="w-full (min-width: 1024px) 67.8125rem, (min-width: 640px) 100vw, 45rem"
                                             />
                                         </div>
                                     </TabPanel>
